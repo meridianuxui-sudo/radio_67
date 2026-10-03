@@ -1,0 +1,3 @@
+import 'package:dio/dio.dart';
+import '../models/radio_status.dart';
+class ApiService { ApiService({String baseUrl='http://10.0.2.2:8000'}):_dio=Dio(BaseOptions(baseUrl:baseUrl)); final Dio _dio; Future<RadioStatus> radioStatus() async { try { final data=(await _dio.get('/api/radio/status')).data as Map<String,dynamic>; return RadioStatus(live:data['is_live'] as bool,title:data['song_title'] as String,artist:data['artist'] as String,listeners:data['listeners'] as int,streamUrl:data['stream_url'] as String,program:data['program'] as String?,host:data['host'] as String?); } catch (_) { return RadioStatus.mock(); } } }

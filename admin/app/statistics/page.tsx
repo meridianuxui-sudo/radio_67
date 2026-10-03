@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="INSIGHTS" title="Statistics" body="Track listener signals, request volume, and programming activity to make informed editorial decisions."/>}

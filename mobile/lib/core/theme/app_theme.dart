@@ -1,0 +1,4 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+class AppColors { static const rosewater=Color(0xFFFCECDF), crimson=Color(0xFF9E122C), tangerine=Color(0xFFEE6A43), coral=Color(0xFFF99D90), gold=Color(0xFFFBCB77), ink=Color(0xFF4A1820), cream=Color(0xFFFFF9F5); }
+class AppTheme { static ThemeData get light { final text=GoogleFonts.dmSansTextTheme().apply(bodyColor: AppColors.ink,displayColor: AppColors.ink); return ThemeData(useMaterial3:true,scaffoldBackgroundColor:AppColors.rosewater,colorScheme:ColorScheme.fromSeed(seedColor:AppColors.crimson,primary:AppColors.crimson,secondary:AppColors.tangerine,surface:AppColors.cream),textTheme:text.copyWith(displayLarge:GoogleFonts.playfairDisplay(fontSize:42,fontWeight:FontWeight.w700),headlineMedium:GoogleFonts.playfairDisplay(fontSize:28,fontWeight:FontWeight.w700)),appBarTheme:const AppBarTheme(backgroundColor:Colors.transparent,foregroundColor:AppColors.ink,elevation:0)); } }

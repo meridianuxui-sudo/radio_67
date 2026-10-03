@@ -1,0 +1,2 @@
+import {Shell} from "./shell";
+export function ContentPage({eyebrow,title,body}:{eyebrow:string;title:string;body:string}){return <Shell><p className="text-xs font-bold tracking-[.2em] text-tangerine">{eyebrow}</p><h1 className="editorial mt-2 text-4xl">{title}</h1><section className="card mt-8 p-8"><p className="max-w-xl text-ink/75">{body}</p><button className="mt-6 rounded-xl bg-crimson px-4 py-3 text-sm font-bold text-cream">OPEN MANAGEMENT WORKFLOW</button></section></Shell>}
