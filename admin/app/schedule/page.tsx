@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="PROGRAMMING" title="Schedule" body="Coordinate weekly program slots and show listeners precisely what is on now and next."/>}

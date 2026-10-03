@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="ACCESS" title="Users" body="Manage student, staff, DJ, and administrator roles through the protected API."/>}

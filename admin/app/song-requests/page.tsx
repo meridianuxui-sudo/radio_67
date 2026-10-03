@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="AUDIENCE" title="Song requests" body="Review pending requests, then approve or reject them with the same status updates delivered to the mobile client."/>}

@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="EDITORIAL" title="Programs" body="Create and maintain programme descriptions, hosts, categories, artwork, and run times for the campus lineup."/>}

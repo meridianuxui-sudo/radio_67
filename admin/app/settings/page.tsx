@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="CONFIGURATION" title="Settings" body="Production secrets, radio credentials, and domains are configured as server-side environment variables and are never exposed in this dashboard."/>}

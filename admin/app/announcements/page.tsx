@@ -1,0 +1,1 @@
+import {ContentPage} from "@/components/content-page"; export default function Page(){return <ContentPage eyebrow="CAMPUS NEWS" title="Announcements" body="Publish clear, priority-aware notices for events, clubs, examinations, and important school information."/>}

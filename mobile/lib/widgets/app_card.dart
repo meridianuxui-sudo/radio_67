@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart'; import '../core/theme/app_theme.dart';
+class AppCard extends StatelessWidget { const AppCard({super.key,required this.child,this.color}); final Widget child; final Color? color; @override Widget build(BuildContext context)=>Card(color:color??AppColors.cream,elevation:0,shape:RoundedRectangleBorder(borderRadius:BorderRadius.circular(24),side:const BorderSide(color:Color(0x194A1820))),child:Padding(padding:const EdgeInsets.all(20),child:child)); }

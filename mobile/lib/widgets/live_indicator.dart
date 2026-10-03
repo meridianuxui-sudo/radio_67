@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart'; import '../core/theme/app_theme.dart';
+class LiveIndicator extends StatelessWidget { const LiveIndicator({super.key}); @override Widget build(BuildContext context)=>Semantics(label:'Live radio',child:const Row(mainAxisSize:MainAxisSize.min,children:[Icon(Icons.circle,color:AppColors.crimson,size:10),SizedBox(width:6),Text('LIVE',style:TextStyle(fontWeight:FontWeight.bold,letterSpacing:1.4))])); }
